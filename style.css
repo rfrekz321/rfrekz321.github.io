@@ -183,15 +183,20 @@ table {
 }
 
 [class*="__container"] {
-    max-width: 1680px;
+    max-width: 1920px;
     margin: 0px auto;
     padding: 0px 15px;
+    font-size: cover;
 }
 
 @media (max-width: 1366px) {
     [class*="__container"] {
         max-width: 1280px;
     }
+}
+[class*="__background"]{
+    max-width: 1920px;
+    margin: 0px auto;
 }
 
 .header {
@@ -223,7 +228,7 @@ table {
 
 .menu__list {
     display: flex;
-    gap: 50px;
+    gap: 68px;
 }
 
 .menu__item {
@@ -421,7 +426,7 @@ table {
 /*=============================================================*/
 .block-text {
     max-width: 100%;
-    padding: 120px 0 0 0;
+    padding: 108px 127px 0 0;
     margin: 0 0 0 0;   
 }
 @media (max-width: 991.98px){
@@ -439,8 +444,8 @@ font-weight: 400;
 font-size: 64px;
 line-height: 72px;
 text-align: center;
-
 color: rgba(0, 0, 0, 0.8);
+padding: 0 0 51px 0;
    
 }
 
@@ -457,12 +462,11 @@ color: rgba(0, 0, 0, 0.8);
 
 .block-text__text {
     max-width: 100%;
-    padding-top: 48px;
     padding-bottom: 136px;
 
     font-family: 'Montserrat' , sans-serif;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 24px;
     line-height: 29px;
     text-align: center;
@@ -478,21 +482,20 @@ align-content: center;
     justify-content: center;
 }
 .Block-text__button {
-    width: 427px;
+    width: 325px;
     max-width: 100%;
     text-decoration: none;
     display: inline-block;
     color: hsla(0, 0%, 0%, 0.7);
-    padding: 12px 40px;
-    margin: 10px 20px;
+    padding: 27px 40px;
     border-radius: 45px;
     font-family: 'Montserrat', sans-serif;
     font-size: 32px;
-    line-height: 45px;
+    line-height: 39px;
     text-transform: none;
-    letter-spacing: 3px;
+    letter-spacing: -1px;
     text-align: center;
-    background-image:linear-gradient(270deg, rgba(0, 154, 99, 0.35) -5.67%, rgba(154, 0, 55, 0.35) 108.4%) ;
+    background-image:linear-gradient(270deg, rgba(0, 154, 99, 0.5) 52.67%, rgba(154, 0, 55, 0.5) 108.4%) ;
     background-size: 200% auto;
     box-shadow: 0 8 15px rgba(0, 0, 0, .1);
     transition: .3s;
@@ -508,8 +511,13 @@ align-content: center;
 
 
 .get-started {
+    
+    
     background-color: #009A63 3%;
     padding-bottom: 15px;
+    height: 1125px;
+    margin: 0 1px;
+    object-fit: cover;
    /* background: url('img/pg1/left22.svg') -300% 0 no-repeat 
     ,url('img/pg1/right23.svg') -120% 0 no-repeat ;
     background-repeat: no-repeat;
@@ -518,20 +526,23 @@ align-content: center;
     /*background-attachment:scroll;*/
 
 }
+.get-bg__background{
+    background: url(/img/pg1/Group26.svg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: local;
+    min-width: 10%;
+}
+
 
 .get-started__container {
     align-items: center;
     flex-wrap: wrap;
-    /*background: url('img/pg1/left22.svg') -1500% /auto 100% no-repeat 
-    ,url('img/pg1/right23.svg') 180% /auto 70% no-repeat;
-    background-repeat: no-repeat;
-    background-position: , ;
-    background-size: ;*/
 }
 
 .get-started__content {
 flex: 0 1 50%;
-padding: 0 0 0 20;
+padding: 0 0 15px 0;
     display: flex;
   justify-content: center;}
 
@@ -541,11 +552,11 @@ padding: 0 0 0 20;
 
 
 .get-started__arrow {
-    padding-top: 88px;
+    height: 90px;
+    margin: auto;
     display: flex;
-align-items: center;
 justify-content: center;
-padding: 100px;
+padding: 100px 0 275px 0;
 }
 
 .get-started__image {
@@ -571,14 +582,18 @@ padding: 100px;
 
 /*==========================================================================*/
 .technikal {
-    padding: 150px 0px 50px 0px;
-    padding-left: auto;
-    padding-right: auto;
+    background-color: rgba(0, 154, 99, 0.03);
+    box-shadow: 1px 35px 100px 150px rgba(0, 154, 99, 22%),
+    inset    1px 1px 150px 1px rgb(0 154 99 / 37%);
+    padding: 15px 0px 5px 0px;
+    margin: 0 1px;
     max-width: 100%;
+    object-fit: cover;
 }
 .technikal__container {
     align-items: center;
     flex-wrap: wrap;
+   
 }
 
 .technikal__content {
@@ -589,6 +604,17 @@ padding: 0 0 0 0;
     margin-right: auto;
     align-items: center;
   justify-content: center;
+  object-fit: cover;
+
+}
+  
+
+.tehnikal__background{
+  background: url(../img/pg1/Group27.svg) no-repeat;
+  background-position: center center;
+  background-size: contain;
+  background-attachment: local;
+
 }
 
 .titel_teh{
@@ -620,7 +646,7 @@ padding: 0 0 0 0;
 
 /*=====================================================================*/
 .abzac__content {
-    padding: 120px;
+    padding: 120px 120px 120px 50px;
 }
 @media (max-width: 991.98px){
     .abzac__content{
@@ -636,14 +662,12 @@ padding: 0 0 0 0;
 }
 
 .technikal-ring__icon {
-    margin-top: 60px;
     max-width: 100%;
     
 }
 
 .teh-block-text__body {
     align-items: flex-start;
-    margin-top: 63px;
     margin-left: 42px;
     margin-bottom: 43px;
 }
@@ -838,21 +862,23 @@ box-shadow: 0px 5px 25px rgba(154, 0, 55, 0.5);
     height: 386px;
     background-color: rgba(0, 154, 99, 0.3);
 }
+
 .footer__container {
+    align-items: center;
 }
+
 .footer__content {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px 0px 0px 80px;
 }
 .footer__logo {
-    padding: 0px 120px 0px 0px ;
+    padding: 0px 140px 0px 0px ;
 }
 .footer__menu {
     display: flex;
     justify-content: column;
-    padding: 125px 0px 0 0;
+    padding: 100px 50px 100px 0px;
 }
 .fmenu__body {
 }
@@ -863,7 +889,7 @@ box-shadow: 0px 5px 25px rgba(154, 0, 55, 0.5);
 font-style: normal;
 font-weight: 500;
 font-size: 26px;
-line-height: 32px;
+line-height: 53px;
 font-feature-settings: 'tnum' 1, 'lnum' 1;
 
 }
@@ -879,7 +905,7 @@ font-feature-settings: 'tnum' 1, 'lnum' 1;
     flex-direction: column;
     align-items: center;
     width: 300px;
-    padding: 0px 50px;
+    padding: 1px 140px 250px 50px; 
 }
 .scroler-up{
     display: flex;
@@ -903,10 +929,9 @@ font-feature-settings: 'tnum' 1, 'lnum' 1;
 .footor_TG {
     padding: 0 65px 0 30;
 }
-.round {
-}
+
 .back_call {
-    padding: 0 50px;
+    padding: 60px 10px;
     font-family: 'Sansation';
 font-style: normal;
 font-weight: 700;
@@ -950,4 +975,6 @@ font-size: 18px;
 line-height: 22px;
 text-decoration: none;
 color: #000000;
+padding: 0px 10px 50px 80px;
+justify-content: baseline;
 }
