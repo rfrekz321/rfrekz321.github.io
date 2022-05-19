@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Sansation';
+    src: url('../Sansation-Regular.eot');
+    src: url('../Sansation-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../Sansation-Regular.woff2') format('woff2'),
+        url('../Sansation-Regular.woff') format('woff'),
+        url('../Sansation-Regular.svg#Sansation-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sansation';
+    src: url('../Sansation-Light.eot');
+    src: url('../Sansation-Light.eot?#iefix') format('embedded-opentype'),
+        url('../Sansation-Light.woff2') format('woff2'),
+        url('../Sansation-Light.woff') format('woff'),
+        url('../Sansation-Light.svg#Sansation-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sansation';
+    src: url('../Sansation-Bold.eot');
+    src: url('../Sansation-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../Sansation-Bold.woff2') format('woff2'),
+        url('../Sansation-Bold.woff') format('woff'),
+        url('../Sansation-Bold.svg#Sansation-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
