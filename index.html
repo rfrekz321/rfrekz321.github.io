@@ -10,7 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    
 
 </head>
 
@@ -146,11 +148,13 @@
                                 <div class="requir-text">Введите имя и телефон.</br>
                                     Мы перезвоним вам в ближайшее время.
                                 </div>
-                                <input class="requir-input" type="text" placeholder="Имя"></br>
-                                <input class="requir-input" type="tel" placeholder="+38 (___) ___-__-__"></br>
-                                <div class="bc-border-button"> <a href="https://www.google.com/" class="bc-button">
-                                        Перезвоните мне </a>
+                                <form class="telegram-form">
+                                <input class="requir-input" type="text" placeholder="Имя"/></br>
+                                <input class="requir-input" type="phone" placeholder="+38 (___) ___-__-__"/></br>
+                                <div class="bc-border-button"> <button type="submit" class="bc-button">
+                                        Перезвоните мне </button>
                                 </div>
+                             </form>
                             </div>
                         </div>
                     </div>
@@ -197,6 +201,9 @@
             </footer>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./main.js"></script>
 </body>
+
 
 </html>
