@@ -789,17 +789,17 @@ filter: drop-shadow(0px 5px 25px rgba(0, 154, 99, 0.5));
 }
 
 .requir-form {
-    padding: 115px 0px 0 0px;
+    padding: 115px 0px 115px 0;
     justify-content: center;
     width: 683px;
     max-width: 100%;
     font-family: 'Sansation';
-font-style: normal;
-font-weight: 700;
-font-size: 56px;
-line-height: 64px;
-text-align: center;
-color: rgba(255, 255, 255, 0.9);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
 }
 
 .requir-input {
@@ -879,8 +879,6 @@ box-shadow: 0px 5px 25px rgba(154, 0, 55, 0.5);
     display: flex;
     justify-content: column;
     padding: 100px 50px 100px 0px;
-}
-.fmenu__body {
 }
 .fmenu__list {
     display: flex;
@@ -977,4 +975,20 @@ text-decoration: none;
 color: #000000;
 padding: 0px 10px 50px 80px;
 justify-content: baseline;
+}
+
+.contact-border {
+    margin: 100px 100px;
+}
+
+.r-textcon{
+    font-family: 'Sansation';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 54px;
+/* identical to box height */
+
+text-align: center;
+
 }
