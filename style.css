@@ -783,15 +783,15 @@ opacity: 0.9;
 }
 
 .border-box{
-    margin: -40px 0px -40px 0;
     border: 3px solid rgba(0, 0, 0, 0.54);
 filter: drop-shadow(0px 5px 25px rgba(0, 154, 99, 0.5));
 }
 
 .requir-form {
-    padding: 115px 0px 115px 0;
+    padding: 115px 0px;
     justify-content: center;
     width: 683px;
+    height: 832px;
     max-width: 100%;
     font-family: 'Sansation';
     font-style: normal;
