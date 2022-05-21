@@ -775,7 +775,8 @@ color: rgba(255, 255, 255, 0.9);
 @media (max-width: 820.98px){
     .requir__container{
         display: block;
-        font-size: 25px;
+        font-size: 36px;
+        padding:  0 0 ;
     }
 }
 
@@ -801,6 +802,11 @@ color: rgba(255, 255, 255, 0.9);
     line-height: 78px;    
     color: rgba(154, 0, 55, 0.9);
     align-items: center;
+}
+@media(max-width: 820.98px){
+    .requir_num{
+        align-items: flex-start;
+    }
 }
 
 .num{    
@@ -832,6 +838,13 @@ color: rgba(255, 255, 255, 0.9);
 opacity: 0.9;
     padding-bottom: 80px;
     padding-left: 40px;
+}
+@media(max-width: 820.98px){
+    .r-text{
+        font-size: 20px;
+        line-height: 25px;
+        padding: 0 0 40px 20px;
+    }
 }
 
 .border-box{
