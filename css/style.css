@@ -1087,8 +1087,6 @@ justify-content: baseline;
 
 /**********************************/
 
-.about {
-}
 
 .about__container {
     
@@ -1192,17 +1190,12 @@ color: rgba(0, 0, 0, 0.8);
         text-align: initial;
     }
 }
-.partner {
-}
+
 bg-img{
     position: relative;
     z-index: 1
 }
 
-.partner__container {
-}
-.partner__content {
-}
 .partner__titel {
     font-family: 'Sansation';
 font-style: normal;
