@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/sweetalert.min.css">
 </head>
 <body>
-    <div class="wrapper">
+    <div id="menu" class="wrapper">
         <header id="open" class="header">
             <div id="close" class="header__container">
                 <a href="" class="header_logo">
@@ -69,7 +69,7 @@
                                 </div>
                                 <form action="post" class="telegram-form">
                                     <input class="requir-input" name="name" type="text" placeholder="Имя" autocomplete="off"/> </br>
-                                    <input class="requir-input" name="phone" type="phone" placeholder="+38 (___) ___-__-__" autocomplete="off"/> </br>
+                                    <input class="requir-input" name="phone" type="phone" placeholder="+38 (___) ___-__-__" oninput="this.value = this.value.replace(/[^0-9]/g, '')" autocomplete="off"/> </br>
                                     <div class="bc-border-button submit"> <button type="submit" class="bc-button">
                                             Перезвоните мне </button>
                                     </div>
@@ -103,12 +103,12 @@
                                 </nav>
                             </div>
                             <div class="scroller-up">
-                                <div class="scroler-up"><a href=""> <img src="img/pg1/Group4.svg" alt="вернуться в начало" class="scrolerup"></a></div>
+                                <div class="scroler-up"><a href="#menu"> <img src="img/pg1/Group4.svg" alt="вернуться в начало" class="scrolerup"></a></div>
                             </div>
                             <div class="footor_TG"><a href="https://www.google.com/"><img src="img/tggif.gif" alt="TG"
                                         width="54px" class="round"></a></div>
                             <div class="back_call">
-                                <a href="" class="back_call button_green">Заказать звонок</a>
+                                <a href="Contacts.html" class="back_call button_green">Заказать звонок</a>
                                 <p type="tel">+38 (072) 171-86-91 <br/>
                                     +38 (095) 101-39-09</p>
                             </div>

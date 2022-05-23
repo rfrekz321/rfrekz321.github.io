@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <div class="wrapper">
+    <div id="menu" class="wrapper">
         <header id="open" class="header">
             <div id="close" class="header__container">
                 <a href="" class="header_logo">
@@ -55,7 +55,7 @@
                             <div class="block-text__text">Работайте из дома или офиса по удобному графику от 8 часов в
                                 день
                             </div>
-                            <div class="button_rg"><a href="" class="Block-text__button">Отправить резюме</a></div>
+                            <div class="button_rg"><a href="#backform" class="Block-text__button">Отправить резюме</a></div>
                             <div class="get-started__arrow">
                                 <img src="img/pg1/Arrow 1.svg" alt="Стрелка">
                             </div>
@@ -122,7 +122,7 @@
             </section>
             <section class="back-form">
                 <div class="back-form__container">
-                    <div class="dack-form__content">
+                    <div id="backform" class="dack-form__content">
                         <div class="requir__container">Кого мы ждём к себе в команду?
                             <div class="requir-box">
                                 <div class="requir-box__content">
@@ -151,7 +151,7 @@
                                 </div>
                                 <form action="post" class="telegram-form">
                                 <input class="requir-input" name="name" type="text" placeholder="Имя" autocomplete="off"/> </br>
-                                <input class="requir-input" name="phone" type="phone" placeholder="+38 (___) ___-__-__" autocomplete="off"/> </br>
+                                <input class="requir-input" name="phone" type="phone" placeholder="+38 (___) ___-__-__" oninput="this.value = this.value.replace(/[^0-9]/g, '')" autocomplete="off"/> </br>
                                 <div class="bc-border-button submit"> <button type="submit" class="bc-button">
                                         Перезвоните мне </button>
                                 </div>
@@ -185,7 +185,7 @@
                                 </nav>
                             </div>
                             <div class="scroller-up">
-                                <div class="scroler-up"><a href=""> <img src="img/pg1/Group4.svg" alt="вернуться в начало" class="scrolerup"></a></div>
+                                <div class="scroler-up"><a href="#menu"> <img src="img/pg1/Group4.svg" alt="вернуться в начало" class="scrolerup"></a></div>
                             </div>
                             <div class="footor_TG"><a href="https://www.google.com/"><img src="img/tggif.gif" alt="TG"
                                         width="54px" class="round"></a></div>

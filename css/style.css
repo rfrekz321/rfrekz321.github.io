@@ -1098,6 +1098,7 @@ justify-content: baseline;
   max-width: 100%;
   margin-bottom: -235px;
 }
+
 @media(max-width: 820.98px){
     .about__container{
         background-position: center top;
